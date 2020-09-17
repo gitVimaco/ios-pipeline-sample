@@ -173,7 +173,6 @@
 				67A92CCC4E0FF1C83C1253F6 /* Pods-PipelineTests.debug.xcconfig */,
 				FFF6E6999B4D0713D84C4F36 /* Pods-PipelineTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -548,8 +547,10 @@
 			baseConfigurationReference = 02F0E7E7962D5623C8AF8A5A /* Pods-Pipeline.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Pipeline/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V57NFUFL5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Pipeline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,6 +559,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.acciona.Pipeline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Development Profile - Prueba com.acciona.Pipeline";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -568,8 +570,10 @@
 			baseConfigurationReference = 152A76EFAD90063267155CCB /* Pods-Pipeline.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Pipeline/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V57NFUFL5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Pipeline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -578,6 +582,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.acciona.Pipeline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Development Profile - Prueba com.acciona.Pipeline";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
